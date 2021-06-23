@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat app</title>
+<!-- Require script pour socket.io -->
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <div class="container" id="message_container"></div>
+    <form id="send_container">
+        <input type="text" id="message_input">
+        <button type="submit" id="send_button">Send</button>
+    </form>
+    
+</body>
+</html>
